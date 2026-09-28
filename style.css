@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.ul {
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+    color: #717886;
+}
+
+.search {
+    margin-top: -3px;
+}
+
+.color {
+    color: #717886;
+}
+
+.span {
+    color: #1E74EC;
+}
+
+#section {
+    margin-top: 80px;
+}
+
+#body {
+    background-image: url("./Rectangle\ 556.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    color: white;
+}
+
+.card1 {
+    background-color: #5F249F;
+    width: 578px;
+    height: 464px;
+    padding: 50px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.line {
+    border: 2px solid rgb(113, 102, 102);
+    width: 500px;
+    margin-top: 50px;
+}
+
+.d {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+.media {
+    display: flex;
+    margin-right: 120px;
+    justify-content: space-evenly;
+}
+
+.us {
+    color: #03115F;
+}
+
+.input {
+    padding: 10px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.textarea {
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #1E74EC;
+    width: 207px;
+    height: 49px;
+    font-size: 20px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    gap: 150px;
+    margin-left: 160px;
+    transform: translateY(-100px);
+}
+
+.card2 {
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.contact {
+    background: white;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+}
